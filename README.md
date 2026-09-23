@@ -16,4 +16,4 @@ was built, broken and fixed by me.
 ## Active Projects
 
 Working through Linux and shell scripting. Writing it down in
-[linux-fundamentals]()
+[linux-fundamentals](https://github.com/itsmamoroso/linux-fundamentals)
