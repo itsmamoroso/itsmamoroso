@@ -7,35 +7,46 @@ I am moving into DevOps and building everything in public.
 
 ---
 
-## 🗺️ Map of Content
+## 🚀 Featured project: [test-dev](https://github.com/itsmamoroso/test-dev)
 
-### 📦 Repositories
+**A two-service Python app (FastAPI + Flask) shipped through a complete CI/CD pipeline.** Start here.
 
-| Repo | What's inside |
-| --- | --- |
-| [**lab**](https://github.com/itsmamoroso/lab) | My DevOps lab notebook: Bash scripts, sysadmin runbooks and certifications |
+- 🔀 **PR quality gates** with GitHub Actions: Ruff, pytest with an **80% coverage gate**, coverage comments on the PR, run only for the service that changed
+- 🛡️ **Trivy** image scanning on every PR
+- 🐳 **Hardened Docker images**: multi-stage, Alpine, non-root, only the runtime shipped
+- 🏷️ **Automated semantic releases**: Conventional Commits → release-please → versioned tags and changelogs per service
+- 📦 **Images published to GHCR** automatically on release
+- 💻 **Reproducible dev environment**: Dev Container + DevPod + mise + pre-commit
 
-### 🧭 By topic
-
-| Topic | Where to find it |
-| --- | --- |
-| 🐧 **Linux** | [Runbooks](https://github.com/itsmamoroso/lab/tree/main/Linux/workbook) · [Scripts](https://github.com/itsmamoroso/lab/tree/main/Linux/scripts) |
-| 🔐 **Security** | [Disable SSH root login](https://github.com/itsmamoroso/lab/blob/main/Linux/workbook/secure-ssh-root-login-no.md) · [Accounts with no login shell](https://github.com/itsmamoroso/lab/blob/main/Linux/workbook/create-user-no-interactive-shell.md) |
-| 🌐 **Networking** | [Remove UFW rules (UFW + Docker fix)](https://github.com/itsmamoroso/lab/blob/main/Linux/scripts/remove-ufw-rules.sh) · [SSH agent automation](https://github.com/itsmamoroso/lab/blob/main/Linux/scripts/ssh-agent-key.sh) |
-| 🌿 **Git** | [Self-hosted Git server with a bare repo](https://github.com/itsmamoroso/lab/blob/main/Git/workbook/git-installation-and-bare-repo-creation.md) |
-| 🐳 **Containers** | [Docker](https://github.com/itsmamoroso/lab/tree/main/Linux/Containers) |
-| ⚙️ **CI/CD** | [Jenkins](https://github.com/itsmamoroso/lab/tree/main/CI-CD/Jenkins) |
-| ☸️ **Kubernetes** · 🏗️ **IaC** · ☁️ **Cloud** | 🚧 Up next |
-
-### 🎓 Certifications
-
-KodeKloud: DevOps Prerequisites · DevOps Fundamentals · 12-Factor App · Linux · Shell Scripting · Git · **Git Level 1** · Docker · Jenkins
-→ [See them all in lab](https://github.com/itsmamoroso/lab#-certifications-kodekloud)
+`GitHub Actions` `Docker` `Trivy` `release-please` `GHCR` `Python` `FastAPI` `Flask` `uv` `mise`
 
 ---
 
+## 🏠 Coming soon: [homelab](https://github.com/itsmamoroso/homelab)
+
+My own infrastructure, built from scratch and documented in the open. It will be the place where projects like **test-dev** get deployed and run.
+
+---
+
+## 🗺️ Map of Content
+
+| Repo | What it is | Status |
+| --- | --- | --- |
+| ⭐ [**test-dev**](https://github.com/itsmamoroso/test-dev) | CI/CD platform for a two-service app: tests, security scans, releases, registry | 🟢 Active |
+| 🏠 [**homelab**](https://github.com/itsmamoroso/homelab) | Self-hosted infrastructure project | 🚧 Coming soon |
+| 🧪 [**lab**](https://github.com/itsmamoroso/lab) | My public grind: the building blocks | 🔁 Ongoing |
+
+### 🧪 The lab: building blocks
+
+Not the flashy stuff, but the fundamentals every junior needs and I practice in public: **Linux user & permission management, SSH hardening, firewall rules, Bash scripting, self-hosted Git**, written up as reproducible runbooks with rollback steps. It also holds my **9 KodeKloud certificates** (DevOps, Linux, Shell, Git, Docker, Jenkins, 12-Factor App).
+→ [Browse the lab](https://github.com/itsmamoroso/lab)
+
+---
+
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?logo=jenkins&logoColor=white)
